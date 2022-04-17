@@ -6,12 +6,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import { loginSchema, OnSubmit, initialValues } from "./loginSchema";
 
 export const Login = () => {
-  // const initalValue = () => window.localStorage.getItem("Name", "username");
-  // const [name, setName] = useState(initalValue);
-
-  // useEffect(() => {
-  //   window.localStorage.setItem("Name", name);
-  // }, [name]);
+  
 
   const history = useHistory();
 
