@@ -1,6 +1,6 @@
-import { React, useState, useEffect } from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import { Link, useHistory } from "react-router-dom";
+import { React} from "react";
+import {   NavDropdown, Container } from "react-bootstrap";
+import {  useHistory } from "react-router-dom";
 import "./header.css";
 import swal from "sweetalert";
 export const Header = (props) => {
