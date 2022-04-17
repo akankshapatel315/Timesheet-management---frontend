@@ -1,9 +1,9 @@
-import { React, useEffect, useState } from "react";
+import { React } from "react";
 import swal from "sweetalert";
 import { post } from "../Central-api/Usersapi";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import { loginSchema, OnSubmit, initialValues } from "./loginSchema";
+import { loginSchema,  initialValues } from "./loginSchema";
 
 export const Login = () => {
   
