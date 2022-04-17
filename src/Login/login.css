@@ -1,0 +1,14 @@
+.bodyForm
+{
+    margin-top: 20px ;
+    margin-left:400px;
+    
+}
+.btn-primary {
+    background-color: #05a081 !important;
+    border-color: #05a081;
+}
+
+.card {
+     border-color: #05a081; 
+}

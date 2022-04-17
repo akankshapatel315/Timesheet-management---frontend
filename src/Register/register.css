@@ -1,0 +1,19 @@
+.formwidth
+{
+    width: 200px;
+}
+.bodyForm
+{
+    margin-top: 20px ;
+    margin-left:400px;
+    
+}
+.error{
+    color: red;
+  }
+  .reg
+  {
+      margin-left: 280px;
+      color:#05a081;
+
+  }

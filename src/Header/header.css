@@ -1,0 +1,30 @@
+.drop
+{
+   margin-left: 280px;
+   margin-top: 8px;
+   text-decoration: none;
+}
+
+.navbar {
+   background-color: #05a081 !important;
+}
+.nav-item
+{
+   background-color: white;
+}
+.nav-link {
+   color: white !important;
+}
+
+@media only screen and (max-width: 991px) {
+
+   .nav-link
+   {
+        flex-direction: column;
+        width: 100%
+   }
+}
+.back
+{
+   background-color: #05595B;
+}
