@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 import "./header.css";
 import swal from "sweetalert";
 export const Header = (props) => {
-
+  // console.log("props", props);
   const style = {
     color: "white",
     textDecoration: "none",
